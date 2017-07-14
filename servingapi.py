@@ -1,6 +1,7 @@
 import requests
 from bs4 import BeautifulSoup as bs
 import json
+from microsoftbotframework import ReplyToActivity
 
 def make_response(message):
     # input_image = #input message
