@@ -15,4 +15,4 @@ bitcoin = 'btc_krw'
 
 def get_bitcoinprice(bitcoin):
     req = requests.get('https://api.korbit.co.kr/v1/ticker?currency_pair={}'.format(bitcoin))
-    return(req.json()['last'])
+    return(str(req.json()['last']))
