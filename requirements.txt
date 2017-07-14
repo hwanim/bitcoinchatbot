@@ -1,0 +1,3 @@
+microsoftbotframework
+bs4
+json
