@@ -7,7 +7,7 @@ def make_response(message):
     # input_image = #input message
     # path = #extract the path of picture in input_image
     if message["type"] == "message":
-        ReplyToActivity(fill=message,text=get_bitcoinprice(btc_krw)).send()
+        ReplyToActivity(fill=message,text=get_bitcoinprice(bitcoin)).send()
 
 
 
